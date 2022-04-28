@@ -1,0 +1,53 @@
+body{
+background-color: #1DB954;
+font-family: 'Comfortaa', cursive, sans-serif;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h1{
+font-size: 80px;
+color:#000000;
+margin-bottom: 30px;
+font-family: Righteous, sans-serif;
+}
+
+main {
+    display: flex;
+  }
+  
+  p {
+    margin: 0.3em;
+    font-size: 18px;
+  }
+  
+  .errore {
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.685);
+    font-size: 15px;
+  }
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input {
+    margin-left: 0.5em;
+  }
+
+  a:link {
+    color : white;
+   }
+
+   a:hover {
+    color : #000000;
+   }
+
+   .errore{
+    font-family: Righteous, sans-serif;
+   }
+ 
